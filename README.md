@@ -21,6 +21,7 @@ nnoremap <leader>t :FindTest<CR>
 ### Supported Languages
 
 - Haskell
+- JavaScript
 
 ### MVP Caveat
 
