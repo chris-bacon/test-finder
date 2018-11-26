@@ -1,6 +1,6 @@
 # Test Finder
 
-### Intro and Usage 
+### Intro and Usage
 
 This is a vim plugin that will open your test file in a vertical or horizontal split when you are in the respective source file.
 
@@ -16,6 +16,12 @@ In your `~/.vimrc`, or wherever you keep your (n)vim config, you could create th
 
 ```
 nnoremap <leader>t :FindTest<CR>
+```
+
+### Install
+
+```
+Plug 'chris-bacon/test-finder'
 ```
 
 ### Supported Languages
