@@ -28,7 +28,7 @@ function! FindTest(split)
 endfunction
 
 function! FindTestV()
-        call FindTest(" vsplit")
+        call FindTest("vsplit")
 endfunction
 
 function! FindTestH()
