@@ -10,12 +10,18 @@ Not anymore! With the following command which you can bind to whatever keys you 
 
 ```
 :FindTest
+:FindTestV
+:FindTestH
 ```
+
+- `FindTest` and `FindTestV` - open test file in vertical split
+- `FindTestH` - open test file in horizontal split
 
 In your `~/.vimrc`, or wherever you keep your (n)vim config, you could create the mapping:
 
 ```
 nnoremap <leader>t :FindTest<CR>
+nnoremap <leader>th :FindTestH<CR>
 ```
 
 ### Install
